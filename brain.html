@@ -1,0 +1,265 @@
+{% load static %}
+
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="{% static 'style.css'%}" type="text/css">
+
+    <title>Brain Tumor</title>
+
+       <style>
+#myHeader {
+  padding: 10px;
+  text-align: center;
+  width:600px;
+}
+
+#my2
+{
+ color: black;
+  text-align: center;
+
+}
+
+#sym{
+color: black;
+  text-align: center;
+}
+
+.card{
+border:5px solid black;
+}
+
+</style>
+
+  </head>
+  <body id="bg"  style="background-image:url('{% static "image/brain.jpg" %}');" >
+
+
+     <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Brain Tumor</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#Types">Types <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#Symptoms">Symptoms   </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">Diagnosis  </a>
+      </li>
+
+       <li class="nav-item">
+        <a class="nav-link" href="#">Treatment  </a>
+      </li>
+
+       <li class="nav-item">
+        <a class="nav-link" href="#">Outlook   </a>
+      </li>
+
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+  <div class="row"> <!-- types block -->
+           <div class="col-md-6" style="margin:1rem auto 0 auto;">
+
+  <h1 id="myHeader">
+
+      <ul class="list-group list-group-flush">
+  <li class="list-group-item">brain tumor</li></ul>
+
+  </h1>
+           </div>
+      </div>
+
+
+
+
+
+      <div class="row"> <!-- types block -->
+           <div class="col-md-6" style="margin:5rem auto 0 auto;">
+
+               <p class="display-4" id="Brain Tumor" name="Brain Tumor"  style="text-align:center;">
+               <h1>Introduction</h1>
+               </p>
+
+                <h3 id="my2">
+
+               <ul class="list-group list-group-flush">
+  <li class="list-group-item"><p>A brain tumor is a collection, or mass, of abnormal cells in your brain. Your skull, which encloses your brain, is very rigid. Any growth inside such a restricted space can cause problems. Brain tumors can be cancerous (malignant) or noncancerous (benign).</p>
+      <br>
+
+  <p>Brain tumors are categorized as primary or secondary. A primary brain tumor originates in your brain. Many primary brain tumors are benign. A secondary brain tumor, also known as a metastatic brain tumor, occurs when cancer cells spread to your brain from another organ, such as your lung or breast.</p>
+  </li>
+
+</ul>
+                </h3>
+
+           </div>
+      </div>
+
+
+
+      <div class="row"> <!-- types block -->
+           <div class="col-md-6" style="margin:5rem auto 0 auto;">
+
+               <p class="display-4" id="Types" name="Types"  style="text-align:center;">
+               <h1>Types of Brain Tumor</h1>
+               </p>
+
+
+
+
+  <ul class="list-group">
+      <li class="list-group-item"><h2>Primary brain tumor</h2></li>
+
+      <p>Primary brain tumors originate in your brain. They can develop from your:</p>
+
+
+  <li class="list-group-item list-group-item-primary">brain cells</li>
+  <li class="list-group-item list-group-item-secondary">the membranes that surround your brain, which are called meninges</li>
+  <li class="list-group-item list-group-item-success">nerve cells</li>
+  <li class="list-group-item list-group-item-danger">glands</li>
+
+
+</ul>
+
+               <p>  Primary tumors can be benign or cancerous. In adults, the most common types of brain tumors are gliomas and meningiomas.            </p>
+    
+               
+               <img src="https://prod-images-static.radiopaedia.org/images/30001497/d8098866119d81f9e87d2f27b286f9_big_gallery.jpeg">
+
+               <br>
+
+                 <ul class="list-group">
+      <li class="list-group-item"><h2>Gliomas Brain Tumor</h2></li>
+
+                     <p>Gliomas are tumors that develop from glial cells. These cells normally:</p>
+
+
+  <li class="list-group-item list-group-item-primary">support the structure of your central nervous system</li>
+  <li class="list-group-item list-group-item-secondary">provide nutrition to your central nervous system</li>
+  <li class="list-group-item list-group-item-success">clean cellular waste
+</li>
+  <li class="list-group-item list-group-item-danger">break down dead neurons</li>
+
+
+</ul>
+
+<p>Gliomas can develop from different types of glial cells</p>
+
+               <img src="https://www.researchgate.net/profile/Abdul-Qayyum-23/publication/339743469/figure/fig1/AS:866068784488452@1583498297780/The-brain-tumor-dataset-sample-for-three-classes-a-glioma-b-meningioma-c.png">
+
+               <br>
+
+                <ul class="list-group">
+      <li class="list-group-item"><h2>Secondary brain tumor</h2></li>
+
+                    <p>Secondary brain tumors make up the majority of brain cancers. They start in one part of the body and spread, or metastasize, to the brain. The following can metastasize to the brain:</p>
+
+                     <li class="list-group-item list-group-item-primary">lung cancer</li>
+  <li class="list-group-item list-group-item-secondary">breast cancer</li>
+  <li class="list-group-item list-group-item-success">kidney cancer
+</li>
+  <li class="list-group-item list-group-item-danger">skin cancer</li>
+
+
+</ul>
+
+<img src="https://www.news-medical.net/image.axd?picture=2017%2F8%2FBrain_Cancer_Regions.jpg">
+
+               <br><br>
+           </div>
+      </div>
+
+
+
+         <!-- Symptoms -->
+
+
+               <p class="display-4" id="Symptoms" name="Symptoms"  style="text-align:center;">
+               <h1 id="sym">Symptoms</h1>
+
+
+   <div class="card">
+                   <div class="card-body">
+
+                           <h2 class="card-title">What are the symptoms of a brain tumor?</h2>
+
+                       <p class="card-text"><h3>Symptoms of brain tumors depend on the location and size of the tumor. Some tumors cause direct damage by invading brain tissue and some tumors cause pressure on the surrounding brain. You’ll have noticeable symptoms when a growing tumor is putting pressure on your brain tissue.</h3></p>
+<br><br>
+
+                       <p><h4>Headaches are a common symptom of a brain tumor. You may experience headaches that:</h4></h4></p>
+
+                       <ul class="list-group">
+                           <li class="list-group-item>are worse in the morning when waking up</li>
+                           <li class="list-group-item>occur while you’re sleeping</li>
+                           <li class="list-group-item>are made worse by coughing, sneezing, or exercise</li>
+                           <li class="list-group-item>vomiting</li>
+                           <li class="list-group-item>blurred vision or double vision</li>
+                           <li class="list-group-item>confusion</li>
+                           <li class="list-group-item>seizures (especially in adults)</li>
+                           <li class="list-group-item>weakness of a limb or part of the face</li>
+                           <li class="list-group-item>a change in mental functioning</li>
+
+                       </ul><br><br>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</ul>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+
+
+                   </div>
+   </div>
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
