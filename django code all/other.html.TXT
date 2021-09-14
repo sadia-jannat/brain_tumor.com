@@ -1,0 +1,48 @@
+{% extends "food/base.html"%}
+
+
+
+{% load static %}  <!-- if i need main.css,imag use -->
+
+{% block content %}  <!-- Load my code for this command -->
+
+<html lang="en">
+<head>
+  <title> Example</title>
+
+</head>
+<body>
+
+
+       <div class="card">
+                   <div class="card-body">
+
+                       <form method="GET" action="cal">
+
+
+
+                           <input type="text" name="a1" class="btn btn-blue"><br><br>
+                           <input type="text" name="a2" class="btn btn-success"><br><br>
+
+                           <input type="submit" value="click" class="btn btn-success">
+
+                            <input type="reset" class="btn btn-danger">
+
+                           result={{result}}
+
+
+
+
+                       </form>
+
+                   </div>
+               </div>
+
+       <p> this result should see in <a href="../res/">add</a> webpage but we don't able</p>
+
+</body>
+</html>
+
+
+
+{% endblock %}
